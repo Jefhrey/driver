@@ -1,0 +1,1 @@
+savedcmd_mydev.ko := ld -r -m elf_x86_64 --fatal-warnings -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/jefhrey/Projects/linux/scripts/module.lds -o mydev.ko mydev.o mydev.mod.o .module-common.o
